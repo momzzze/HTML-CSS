@@ -1,0 +1,14 @@
+#product-overview{
+    background: #ff1b68;
+} 
+/* #plans{
+    background: black;
+}   */
+h1{
+    color: azure;
+    font-family: "Anton",'Lucida Sans';
+}
+.section-title{
+    background: burlywood;
+    color: greenyellow;
+}
