@@ -1,14 +1,27 @@
-#product-overview{
+body{
+    font-family: "Montserrat";
+    color: blue;
+
+}
+
+#product-overview {
     background: #ff1b68;
-} 
+}
+
 /* #plans{
     background: black;
 }   */
-h1{
-    color: azure;
-    font-family: "Anton",'Lucida Sans';
-}
-.section-title{
+
+.section-title {
     background: burlywood;
     color: greenyellow;
 }
+#product-overview h1 {
+    font-family: serif;
+    color: rebeccapurple;
+}
+h1 {
+    color: azure;
+    font-family: "Anton";
+}   
+
