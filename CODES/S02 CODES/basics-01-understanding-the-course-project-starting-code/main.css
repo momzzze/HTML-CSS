@@ -5,7 +5,6 @@ body{
 }
 
 #product-overview {
-    background: #ff1b68;
 }
 
 /* #plans{
@@ -16,9 +15,18 @@ body{
     background: burlywood;
     color: greenyellow;
 }
-#product-overview h1 {
+#product-overview h1 {    
+    background: #ff1b68;
     font-family: serif;
     color: rebeccapurple;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 h1 {
     color: azure;
