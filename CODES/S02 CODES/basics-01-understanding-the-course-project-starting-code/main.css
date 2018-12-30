@@ -1,35 +1,182 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Montserrat";
-    color: blue;
-
+    background: rgb(2, 54, 2);
+    border: none;
 }
 
-#product-overview {
-}
+#product-overview {}
 
 /* #plans{
     background: black;
 }   */
 
 .section-title {
-    background: burlywood;
-    color: greenyellow;
+    background: darkgreen;
+    color: lightgreen;    
+    text-align: center;
 }
-#product-overview h1 {    
-    background: #ff1b68;
-    font-family: serif;
-    color: rebeccapurple;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    margin-top: 20px;    
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-h1 {
-    color: azure;
-    font-family: "Anton";
-}   
 
+#product-overview h1 {
+    font-family: serif;
+    color: white;
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 550px;
+    text-align: initial;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: darkgreen;
+    font-family: "Anton";
+}
+
+.plan{
+    background: lightgreen;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+.plan--highlighted{
+    background: rgba(22, 87, 22,0.5);
+    color: white;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.plan--highlighted h1 {    
+    color: rgb(20, 190, 20);
+}
+.plan__annotation {
+    background: lightgreen;
+    color: darkgreen;
+    padding: 8px;    
+    box-shadow: 2px 2px 2px 1px black;
+    border-radius: 8px;
+}
+.plan__title {
+    color: darkgreen;
+}
+.plan__price {
+    color: rgb(163, 161, 161);
+}
+
+.plan--highlighted .plan__price {
+    color: darkgreen;
+}
+.plan--highlighted .title {
+    color: white;
+}
+
+.plan__futures {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__future {
+    margin: 10px 0;
+}
+
+.button {
+    background: darkgreen;
+    color: lightgreen;
+    font: inherit;
+    border: 1.5px solid darkgreen;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: white;
+    color: darkgreen;
+    font: inherit solid white;
+}
+.button:active {
+    background: white;
+    color: darkgreen;
+    font: inherit solid white;
+}
+.button:focus{
+    outline: none;
+}
+
+.main-header {
+    width: 100%;
+    background: darkgreen;
+    font-family: "Anton";
+    padding: 8px 6px;
+}
+
+.main-header>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand {
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 60px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin: 0 16px;
+    list-style: none;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+
+}
+
+.main-nav__items a {
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__items a:hover,
+.main-nav__items a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a{
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: red;
+    background: white;
+    border: none;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 20px;
+}
