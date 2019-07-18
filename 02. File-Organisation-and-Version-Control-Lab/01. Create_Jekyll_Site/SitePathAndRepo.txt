@@ -1,0 +1,10 @@
+https://momzzze.github.io/webPorfolio_Blog/   site
+https://github.com/momzzze/webPorfolio_Blog/   repo
+----------------------------------------
+some commands used in process:
+git checkout -b gh-pages         switching to my gh-pages branch
+git remote add origin https://github.com/momzzze/webPorfolio_Blog.git    adding local repo to repo from github.
+git push origin (branch)
+
+----------------------------------------
+more easy is with GitHub Desktop!

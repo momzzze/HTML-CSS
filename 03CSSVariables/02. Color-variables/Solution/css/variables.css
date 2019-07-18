@@ -1,0 +1,15 @@
+:root {
+
+    --layout-main-width:70em;
+
+    --font-size-h1Tag: 30px;
+    --font-size-h3Tag: 20px;    
+    --font-size-pTag: 16px;
+
+    --border-color: #FFC701;
+
+    --btn-background-color: #FFC701;
+    --btn-background-color-hover: #275468;
+    --primary-color: #275468;
+    --yellow-color: #FFC701;
+}

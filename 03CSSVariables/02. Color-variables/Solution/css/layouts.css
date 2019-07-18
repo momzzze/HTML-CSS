@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font: 14px/1.5 "Fira Sans", Georgia, serif;
+}
+.site {
+  max-width: var(--layout-main-width);
+  margin: 4em auto;
+  padding: 2em;
+}
+
+h3 {
+  font-size: var(--font-size-h3Tag);
+  padding-bottom: 0.1em;
+}
+p {
+  font-size: var(--font-size-pTag);
+  padding: 0.3em 0 1em 0;
+}
+
+.section {
+  border: 1px solid var(--border-color);
+  border-radius: 0.2em;
+  padding: 3em;
+}
+.section ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section > ul > li {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+.btn {
+  background: var(--btn-background-color);
+  padding: 0.7em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 0.21em;
+}
+.btn:hover {
+  background: var(--btn-background-color-hover);
+  color: var(--yellow-color);
+}

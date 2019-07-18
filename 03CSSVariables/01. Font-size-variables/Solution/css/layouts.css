@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font: 14px/1.5 "Fira Sans", Georgia, serif;
+}
+
+h1 {
+  font-size: var(--font-size-h1Tag);
+  text-align: center;
+  padding-bottom: 1em;
+}
+h3 {
+  font-size: var(--font-size-h3Tag);  
+  padding-bottom: 1em;
+}
+p {
+  font-size: var(--font-size-pTag);
+  padding: 0.71em 0 0.71em 0;
+}
+
+.site {
+  max-width: var(--layout-main-width);
+  margin: 0 auto;
+  padding: 2em;
+}
