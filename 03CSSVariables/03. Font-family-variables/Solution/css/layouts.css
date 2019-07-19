@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: var(--font-family-all-content), serif;
+}
+
+.site {
+  max-width: var(--layout-main-width);
+  margin: 0 auto;
+  padding: 2em;
+}
+.site h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-headings), serif;
+}
+
+.site header{
+    text-align: center;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.site header>h1{
+    padding-bottom: 1em;
+}
+
+h2,h3,h4,p{
+    padding-bottom: 0.5em;
+}
+

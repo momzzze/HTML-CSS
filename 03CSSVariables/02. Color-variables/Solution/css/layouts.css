@@ -26,6 +26,7 @@ p {
 }
 
 .section {
+  display: flex;
   border: 1px solid var(--border-color);
   border-radius: 0.2em;
   padding: 3em;
