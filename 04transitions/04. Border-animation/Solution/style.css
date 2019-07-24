@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font: 18px/1.5 "Fira Sans", Georgia, serif;
+}
+.site {
+    
+  display: flex;
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 12em;
+}
+
+a {
+  display: flex;
+  display: block;
+  border: 0.21em solid rgb(61, 61, 100);
+  text-decoration: none;
+  text-align: center;  
+  padding: 1em;
+  color: #000;
+  margin: 0 1em 1em 0;
+}
+a:before {
+  display: block;
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.51em 0 rgb(61, 61, 100);;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+a:after {
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.2em 0 rgb(61, 61, 100) inset;
+}
+a:hover span:before {
+  opacity: 0;
+}
+a:hover {
+    border: 0.3em solid rgb(61, 61, 100);;
+    box-shadow: 0 0 0.21em 0 rgb(61, 61, 100) inset;
+    animation: enlargement 0.1s ease-in;
+}
+
+
+@keyframes enlargement {
+    0%{     border: 0.1em solid rgb(61, 61, 100);;
+    }
+    25%{    border: 0.17em solid rgb(61, 61, 100);;
+    }
+    40%{    border: 0.2em solid rgb(61, 61, 100);;
+    }
+    60%{    border: 0.27em solid rgb(61, 61, 100);;
+    }
+    80%{    border: 0.3em solid rgb(61, 61, 100);;
+    }
+    100%{    border: 0.4em solid rgb(61, 61, 100);;
+    }
+}
